@@ -1,0 +1,11 @@
+﻿{
+	"MATE": ["#CC6600", "Matemática"],
+	"HUM": ["#66CC33", "Estudios Humanísticos"],
+	"EFI": ["#3366CC", "Defider"],
+	"INF": ["#660099", "Informática"],
+	"FIS": ["#4D0629", "Fisica"],
+	"PC": ["#336600", "Quimica"],
+	"ICOM": ["#577170", "Comercial"],
+	"ACA": ["#6699FF", "Inglés"],
+	"IAC": ["#C5ADE6", "Aeronautica"]
+}
