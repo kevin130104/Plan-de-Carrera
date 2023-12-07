@@ -1,0 +1,84 @@
+﻿{
+   "s1":[
+      ["Programación","IWI-131",5,"INF"],
+      ["Álgebra y geometría","MAT060",5,"MATE"],
+      ["Introducción a la Física","FIS100",6,"FIS"],
+      ["Introducción a la Aeronautica","IAC001",4,"IAC"],
+      ["Educación Física I","EFI100",2,"EFI"],
+      ["Ingles Tecnico Aeronautico","ACA260",3,"ACA"],
+      ["Introduccion al calculo","MAT070",5,"MATE"]
+   ],
+   "s2":[
+      ["Química y Sociedad","QUI-010",5,"PC"],
+      ["Calculo en una variable","MAT071",6,"MATE",["MAT070"]],
+      ["Álgebra lineal","MAT061",7,"MATE",["MAT060"]],
+      ["Fisica Basica I","FIS109",5,"FIS",["FIS100","MAT060","MAT070"]],
+      ["Manejo de tecnologias de la informacion y comunicacion","IAC002",3,"IAC"],
+      ["Humanístico I","HRW1",3,"HUM"],
+      ["Educación Física II","EFI101",2,"EFI",["EFI100"]]
+   ],
+   "s3":[
+      ["Administracion de Empresas","ICS001",5,"ICOM"],
+      ["Fisica Basica II","FIS119",7,"FIS",["MAT061","MAT071","FIS109"]],
+      ["Deportes","DEW0",2,"EFI",["EFI101"]],
+      ["Humanistico II","HRW2",3,"HUM"],
+      ["Inglés Basico Aeronautico","ACA2611",3,"ACA",["ACA260"]],
+      ["Matematicas III","MAT023",7,"MATE",["MAT061","MAT071"]]
+   ],
+   "s4":[
+      ["Fisica Basica III","FIS129",7,"FIS",["FIS119"]],
+      ["Contabilidad I","ICS002",5,"ICOM",["ICS001"]],
+      ["Humanistico III","HRW3",3,"HUM"],
+      ["Inglés medio Aeronautico I","ACA262",3,"ACA",["ACA261"]],
+      ["Probabilidad y estadistica comercial","MAT032",7,"MATE",["MAT023"]],
+      ["Taller de integracion de competencias I","IAC003",5,"IAC",["EFI100","ICS001"]]
+   ],
+   "s5":[
+      ["Ciencias Aeronauticas I","IAC005",7,"IAC",["FIS129","ACA262"]],
+      ["Inglés Medio Aeronautico II","ACA263",3,"ACA",["ACA262"]],
+      ["Economia y finanzas en aeronautica","IAC004",5,"IAC",["ICS141"]],
+      ["Etica profesional y responsabilidad social empresarial","IAC006",2,"IAC",["HRW2","IAC003"]],
+      ["Gestion de investigacion de operaciones","ICS010",7,"ICOM",["MAT032"]],
+      ["Ingenieria Economica","ICS009",5,"ICOM",["ICS002"]]
+   ],
+   "s6":[
+      ["Econometría","ICS013",7,"ICOM",["MAT032"]],
+      ["Electivo Libre","IAC008",5,"IAC"],
+      ["Inglés avanzado Aeronautico I","ACA264",3,"ACA",["ACA263"]],
+      ["Empresas Aeronauticas I","IAC007",5,"IAC",["IAC004","ICS009"]],
+      ["Taller de integracion de competencias II","IAC009",5,"IAC",["IAC005","IAC006"]],
+      ["Recursos humanos","ICS015",5,"ICOM",["ICS001","ICS112"]]
+   ],
+   "s7":[
+      ["CIENCIAS AERONÁUTICAS II","IAC013",7,"IAC",["IAC005"]],
+      ["ELECTIVO ACA I","IAC014",5,"IAC"],
+      ["INFRAESTRUCTURA Y SERVICIOS AERONÁUTICOS","IAC012",5,"IAC",["IAC007","ACA264","IAC009"]],
+      ["INGLÉS AVANZADO AERONÁUTICO II","ACA265",3,"ACA",["ACA264"]],
+      ["LEGISLACIÓN AERONÁUTICA","IAC011",5,"IAC",["IAC007"]],
+      ["MARKETING AERONÁUTICO","IAC010",5,"IAC",["IAC007"]]
+   ],
+   "s8":[
+      ["EMPRESAS AERONÁUTICAS II","IAC017",5,"IAC",["IAC012","IAC010"]],
+      ["INGLÉS CONVERSACIONAL AERONÁUTICO","ACA266",3,"ACA"["ACA265"]],
+      ["LIDERAZGO Y NEGOCIACIÓN","IAC015",5,"IAC",["ICS015","IAC006"]],
+      ["OPERACIONES Y LOGÍSTICA AERONÁUTICA","IAC018",5,"IAC",["IAC013","IAC012"]],
+      ["SEGURIDAD OPERACIONAL Y SMS","IAC016",5,"IAC",["IAC011","IAC012"]],
+      ["TALLER DE INTEGRACIÓN DE COMPETENCIAS III","IAC019",5,"IAC",["IAC009"]],
+   ],
+   "s9":[
+      ["DECISIONES FINANCIERAS AERONÁUTICAS","IAC023",5,"IAC"],
+      ["EVALUACIÓN DE PROYECTOS AERONÁUTICOS","IAC021",5,"IAC"],
+      ["GESTIÓN ESTRATÉGICA","IAC022",5,"IAC"],
+      ["MODERN COMMERCIAL AVIATION","IAC024",3,"IAC",["IAC020","ACA266"]],
+      ["SISTEMAS DE GESTIÓN DE CALIDAD","IAC020",5,"IAC",["IAC016","IAC018"]],
+      ["TRABAJO DE TITULACIÓN I","IAC025",4,"IAC"]
+   ],
+   "s10":[
+      ["AERONÁUTICA Y ESPACIO","IAC027",3,"IAC",["IAC021"]],
+      ["CASOS EN LA AVIACIÓN COMERCIAL","IAC028",3,"IAC",["IAC022","IAC023"]],
+      ["ELECTIVO ACA II","IAC029",5,"IAC"],
+      ["INTERNATIONAL AVIATION FEATURES","IAC030",3,"IAC"],
+      ["SISTEMAS INTEGRADOS DE GESTIÓN EN LA INDUSTRIA AERONÁUTICA","IAC026",4,"IAC",["IAC022",]],
+      ["TRABAJO DE TITULACIÓN II","IAC031",10,"IAC",["IAC025","IAC024"]]
+   ]
+}
